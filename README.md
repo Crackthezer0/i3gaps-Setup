@@ -6,6 +6,7 @@ Dependancies:
 
 rxvt-unicode
 i3-gaps
+compton
 ranger
 polybar
 feh
