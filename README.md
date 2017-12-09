@@ -10,4 +10,5 @@ ranger
 polybar
 feh
 ImageMagick
+redshift
 transset-df
