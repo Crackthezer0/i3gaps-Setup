@@ -50,7 +50,10 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Misc Ohsnap.Icons:style=Regular:pixelsize=11;1
+font-0 = Ohsnap.Icons:style=Regular:pixelsize=11;1
+# Font location on arch
+# font-0 = Misc Ohsnap.Icons:style=Regular:pixelsize=11;1
+
 #font-0 = mono:pixelsize=11;1
 font-1 = Unifont:style=Medium:size=8:antialias=false;0
 #font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
@@ -259,7 +262,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s25
+interface = enp2s0
 interval = 3.0
 
 format-connected-underline = ${xrdb:color2}

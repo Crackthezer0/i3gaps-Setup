@@ -27,6 +27,9 @@ font pango:monospace 8
 # support right-to-left and this being a bitmap font, it doesn’t scale on retina/hidpi 
 # displays.
 
+#configure monitor layout
+#exec_always --no-startup-id xrandr --output DVI-D-0 --mode 1920x1080 --output HDMI-0 --mode 1440x900 --left-of DVI-D-0
+
 #Control screen brightness with hotkey
 bindsym XF86MonBrightnessDown exec light -U 10
 bindsym XF86MonBrightnessUp exec light -A 11
@@ -107,6 +110,9 @@ gaps outer 5
 # no gaps
 bindsym $mod+Shift+d gaps inner current set 0; gaps outer current set 0
 
+# reset gaps
+bindsym $mod+c gaps inner current set 10; gaps outer current set 5
+
 # modify inner gaps by 5
 bindsym $mod+n gaps inner current plus 5
 bindsym $mod+Shift+n gaps inner current minus 5
@@ -116,7 +122,10 @@ bindsym $mod+z gaps outer current plus 5
 bindsym $mod+Shift+z gaps outer current minus 5
 
 # Enable compositing
-exec compton -cCGb
+# Desktop PC
+exec compton -cCGb --backend glx --vsync opengl-swc
+# pavilion g4
+# exec compton -cCGb
 
 	###---Hotkeys---###
 
