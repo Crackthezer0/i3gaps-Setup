@@ -1,3 +1,12 @@
+
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.antialias: true
+Xft.autohint: 0
+Xft.rgba: rgb
+Xft.dpi: 96
+Xft.lcdfilter: lcddefault
+
 ! special
 *.foreground:   #ffffff
 *.background:   #1b1b1b
@@ -21,7 +30,7 @@
 
 ! blue
 *.color4:       #31658c
-*.color12:      #477ab3
+:*.color12:      #477ab3
 
 ! magenta
 *.color5:       #596196
@@ -39,9 +48,12 @@
 URxvt.intensityStyles:false
 !!URxvt.background:       [70]#000000
 URxvt.depth:		32
-URxvt.letterSpace: 	0
+URxvt.letterSpace: 	-1
 URxvt.lineSpace:	1
-URxvt*font:	xft:MiscOhsnap:style=Slash:size=11
+#URxvt*font:	xft:MiscOhsnap:style=Slash:size=11
+URxvt*font:	xft:Hack:style=Slash:size=11
+#URxvt*font:	xft:MiscOhsnap:style=Slash:size=11
+
 URxvt.scrollBar:	false
 URxvt.cursorColor:	white
 URxvt.perl-ext-common:	default,matcher,resize-font
@@ -67,11 +79,3 @@ rofi.bw:		0
 rofi.opacity:		"10"
 rofi.hide-scrollbar:	true
 rofi.width:		30
-
-Xft.hinting: true
-Xft.hintstyle: hintfull
-Xft.antialias: true
-Xft.autohint: 0
-Xft.rgba: rgb
-Xft.dpi: 96
-Xft.lcdfilter: lcddefault

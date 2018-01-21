@@ -1,19 +1,50 @@
-open_with 
-search 
-
-search tutu
-search letter
-search laptop
-open_with h
-search environment
-search lev
-search fed
 search environ
 search science
 search sci
 search 9
 search ex
 search exam
-open
 help
+shell 
+uV
+search make
+mkdir
+mkdir tithes
+del
+search *.iso
+search iso
+open_with lllll
+search School
+~
+home
+cd ~
+search help
+search ranger
+
+open_with 
+open
+open_with gzip
+open_with frotz
+!ls /usr/share/vim/vim80/
+ls
+ls!
+search docu
+search school
+!wget https://gist.githubusercontent.com/justinabrahms/1047767/raw/a79218b6ca8c1c04856968d2d202510a4f7ec215/colortest.py
+search vimrc
+search sch
+shell git clone https://github.com/altercation/vim-colors-solarized.git
+root
+sudo
+search shar
+search vim
+shell cd ~
+open_with keepassxc
+search share
+paste
+open_with tar -xvf
+shell tar -xvf PosteRazor-1.5-Linux-x86.tgz
+search 
+search prog
+open_with keepassx
 delete
