@@ -55,7 +55,8 @@ font-0 = Ohsnap.Icons:style=Regular:pixelsize=11;1
 # font-0 = Misc Ohsnap.Icons:style=Regular:pixelsize=11;1
 
 #font-0 = mono:pixelsize=11;1
-font-1 = Unifont:style=Medium:size=8:antialias=false;0
+font-1 = Unifont:style=Medium:pixelsize=8:1
+#font-1 = Unifont:style=Medium:size=8:antialias=false;0
 #font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Siji:style=Regular:pixelsize=11;1
 #font-2 = Siji:pixelsize=11;1
@@ -232,10 +233,10 @@ label = %percentage%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${xrdb:color6}
-label = %percentage_used%%
+;format-prefix = " "
+;format-prefix-foreground = ${colors.foreground-alt}
+;format-underline = ${xrdb:color6}
+label = %percentage_used%
 
 [module/wlan]
 type = internal/network

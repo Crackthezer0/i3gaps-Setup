@@ -1,39 +1,17 @@
-open_with gzip
-open_with frotz
-!ls /usr/share/vim/vim80/
-ls
-ls!
-search docu
-search school
-!wget https://gist.githubusercontent.com/justinabrahms/1047767/raw/a79218b6ca8c1c04856968d2d202510a4f7ec215/colortest.py
-search sch
-shell git clone https://github.com/altercation/vim-colors-solarized.git
-root
-sudo
-search shar
-search vim
-shell cd ~
-search share
-paste
-open_with tar -xvf
 shell tar -xvf PosteRazor-1.5-Linux-x86.tgz
 search prog
 open_with 
-delete
 search vimrc
 search .vim
 shell git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 shell sudo ap
-search 
 shell mkdir Ceaser_Cypher
 shell git init
-
 vim README.md
 touch README.md
 search news
 shell mkdir Notes
 shell touch ChurchComments-1-24-2018
-open_with vim
 search kee
 open_with keepassxc
 shell sudo dpkg -i discord-0.0.4.deb
@@ -44,7 +22,29 @@ shell mpv Pt.11-Jacob-Pt.6.mp4
 search conf
 search .conf
 search i3
+search scrip
+search down
+
+shell pwd
+search videos
+open_with h
+search video
+search downlo
+search ubu
+open_with transmission
+open_with transmision
+search keepassx
+search .config
+search poly
+search cal
 search caleb
 open_with keepassx
-search .config
-search scrip
+search etc
+cd  .config
+search mpd.conf
+search ranger
+search mpd
+open_with vim
+search 
+shell mkdir mpd
+delete
