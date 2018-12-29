@@ -21,3 +21,5 @@ install_packages(){
 source_building
 
 install_packages
+
+stow ~/dotfiles/i3gaps-Setup
