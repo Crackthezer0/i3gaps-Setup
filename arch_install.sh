@@ -15,10 +15,8 @@ install_packages(){
 	else
 	    sudo pacman --noconfirm --needed -S "$pakage"
 	fi
-    done < "$programs
-
+    done < "$programs"
+}
 source_building
 
 install_packages
-    
-    
