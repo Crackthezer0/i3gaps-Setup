@@ -7,15 +7,16 @@ source_building(){
 install_packages(){
     programs=progs.csv
     
-    while IFS=, read type package description; do
+    while IFS=, read -r type package description; do
 	if [[ $type == "A" ]]; then
-	    sudo yay --noconfirm
+	    sudo yay --noconfirm -S "$package"
 	elif [[ $type == "G" ]]; then
 	    continue
 	else
-	    sudo pacman --noconfirm --needed -S "$pakage"
+	    sudo pacman --noconfirm --needed -S "$package"
 	fi
-    done < "$programs
+    done < "$programs"
+}
 
 source_building
 
