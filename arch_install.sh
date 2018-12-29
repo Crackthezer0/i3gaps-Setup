@@ -9,7 +9,7 @@ install_packages(){
     
     while IFS=, read -r type package description; do
 	if [[ $type == "A" ]]; then
-	    sudo yay --noconfirm -S "$package"
+	    yay --noconfirm --needed -S "$package"
 	elif [[ $type == "G" ]]; then
 	    continue
 	else
