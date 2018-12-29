@@ -1,0 +1,692 @@
+2018-09-04 06:49:00		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-09-04 06:49:00		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-09-04 06:49:00		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-09-04 06:49:00		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-09-04 06:49:00		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-04 06:49:02		fifo: pipe closed
+2018-09-04 06:53:53		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-04 07:02:33		[core]
+2018-09-04 07:02:33		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-04 07:02:33		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-04 07:02:33		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-04 07:02:33		[logger]
+2018-09-04 07:02:33		  logger
+2018-09-04 07:02:33		[fset]
+2018-09-04 07:02:33		  fset
+2018-09-04 07:02:33		[trigger]
+2018-09-04 07:02:33		  trigger
+2018-09-04 07:02:33		[python]
+2018-09-04 07:02:33		  python
+2018-09-04 07:02:33		[irc]
+2018-09-04 07:02:33		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-04 07:02:33		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-04 07:02:33		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-04 07:02:33		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-04 07:02:33		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-04 07:02:33		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-04 07:02:33		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-04 07:02:33		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-04 07:02:33		[exec]
+2018-09-04 07:02:33		  exec
+2018-09-04 07:02:33		[xfer]
+2018-09-04 07:02:33		  me  xfer
+2018-09-04 07:02:33		[relay]
+2018-09-04 07:02:33		  relay
+2018-09-04 07:02:33		[alias]
+2018-09-04 07:02:33		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-04 07:02:33		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-04 07:02:33		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-04 07:02:33		[fifo]
+2018-09-04 07:02:33		  fifo
+2018-09-04 07:02:33		[perl]
+2018-09-04 07:02:33		  perl
+2018-09-04 07:02:33		[charset]
+2018-09-04 07:02:33		  charset
+2018-09-04 07:02:33		[script]
+2018-09-04 07:02:33		  script
+2018-09-04 07:02:33		[buflist]
+2018-09-04 07:02:33		  buflist
+2018-09-04 07:02:33		[lua]
+2018-09-04 07:02:33		  lua
+2018-09-04 07:02:43	=!=	Error: unknown command "/next" (type /help for help)
+2018-09-04 07:02:46		[core]
+2018-09-04 07:02:46		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-04 07:02:46		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-04 07:02:46		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-04 07:02:46		[logger]
+2018-09-04 07:02:46		  logger
+2018-09-04 07:02:46		[fset]
+2018-09-04 07:02:46		  fset
+2018-09-04 07:02:46		[trigger]
+2018-09-04 07:02:46		  trigger
+2018-09-04 07:02:46		[python]
+2018-09-04 07:02:46		  python
+2018-09-04 07:02:46		[irc]
+2018-09-04 07:02:46		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-04 07:02:46		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-04 07:02:46		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-04 07:02:46		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-04 07:02:46		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-04 07:02:46		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-04 07:02:46		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-04 07:02:46		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-04 07:02:46		[exec]
+2018-09-04 07:02:46		  exec
+2018-09-04 07:02:46		[xfer]
+2018-09-04 07:02:46		  me  xfer
+2018-09-04 07:02:46		[relay]
+2018-09-04 07:02:46		  relay
+2018-09-04 07:02:46		[alias]
+2018-09-04 07:02:46		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-04 07:02:46		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-04 07:02:46		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-04 07:02:46		[fifo]
+2018-09-04 07:02:46		  fifo
+2018-09-04 07:02:46		[perl]
+2018-09-04 07:02:46		  perl
+2018-09-04 07:02:46		[charset]
+2018-09-04 07:02:46		  charset
+2018-09-04 07:02:46		[script]
+2018-09-04 07:02:46		  script
+2018-09-04 07:02:46		[buflist]
+2018-09-04 07:02:46		  buflist
+2018-09-04 07:02:46		[lua]
+2018-09-04 07:02:46		  lua
+2018-09-04 07:02:50		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-04 07:02:50		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-04 07:02:50		connect to IRC server(s)
+2018-09-04 07:02:50		    server: server name, which can be:
+2018-09-04 07:02:50		            - internal server name (added by /server add, recommended usage)
+2018-09-04 07:02:50		            - hostname/port or IP/port, port is 6667 by default
+2018-09-04 07:02:50		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-04 07:02:50		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-04 07:02:50		    option: set option for server (for boolean option, value can be omitted)
+2018-09-04 07:02:50		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-04 07:02:50		      -all: connect to all servers defined in configuration
+2018-09-04 07:02:50		     -auto: connect to servers with autoconnect enabled
+2018-09-04 07:02:50		     -open: connect to all opened servers that are not currently connected
+2018-09-04 07:02:50		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-04 07:02:50		   -switch: switch to next server address
+2018-09-04 07:02:50		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-04 07:02:50		Examples:
+2018-09-04 07:02:50		  /connect freenode
+2018-09-04 07:02:50		  /connect irc.oftc.net/6667
+2018-09-04 07:02:50		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-04 07:02:50		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-04 07:02:50		  /connect my.server.org/6697 -ssl -password=test
+2018-09-04 07:02:50		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-04 07:02:50		  /connect -switch
+2018-09-04 07:02:54		[core]
+2018-09-04 07:02:54		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-04 07:02:54		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-04 07:02:54		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-04 07:02:54		[logger]
+2018-09-04 07:02:54		  logger
+2018-09-04 07:02:54		[fset]
+2018-09-04 07:02:54		  fset
+2018-09-04 07:02:54		[trigger]
+2018-09-04 07:02:54		  trigger
+2018-09-04 07:02:54		[python]
+2018-09-04 07:02:54		  python
+2018-09-04 07:02:54		[irc]
+2018-09-04 07:02:54		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-04 07:02:54		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-04 07:02:54		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-04 07:02:54		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-04 07:02:54		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-04 07:02:54		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-04 07:02:54		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-04 07:02:54		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-04 07:02:54		[exec]
+2018-09-04 07:02:54		  exec
+2018-09-04 07:02:54		[xfer]
+2018-09-04 07:02:54		  me  xfer
+2018-09-04 07:02:54		[relay]
+2018-09-04 07:02:54		  relay
+2018-09-04 07:02:54		[alias]
+2018-09-04 07:02:54		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-04 07:02:54		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-04 07:02:54		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-04 07:02:54		[fifo]
+2018-09-04 07:02:54		  fifo
+2018-09-04 07:02:54		[perl]
+2018-09-04 07:02:54		  perl
+2018-09-04 07:02:54		[charset]
+2018-09-04 07:02:54		  charset
+2018-09-04 07:02:54		[script]
+2018-09-04 07:02:54		  script
+2018-09-04 07:02:54		[buflist]
+2018-09-04 07:02:54		  buflist
+2018-09-04 07:02:54		[lua]
+2018-09-04 07:02:54		  lua
+2018-09-04 07:03:03	=!=	Error: unknown command "/up" (type /help for help)
+2018-09-04 07:03:04	=!=	Error: unknown command "/down" (type /help for help)
+2018-09-04 07:03:07		[core]
+2018-09-04 07:03:07		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-04 07:03:07		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-04 07:03:07		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-04 07:03:07		[logger]
+2018-09-04 07:03:07		  logger
+2018-09-04 07:03:07		[fset]
+2018-09-04 07:03:07		  fset
+2018-09-04 07:03:07		[trigger]
+2018-09-04 07:03:07		  trigger
+2018-09-04 07:03:07		[python]
+2018-09-04 07:03:07		  python
+2018-09-04 07:03:07		[irc]
+2018-09-04 07:03:07		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-04 07:03:07		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-04 07:03:07		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-04 07:03:07		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-04 07:03:07		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-04 07:03:07		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-04 07:03:07		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-04 07:03:07		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-04 07:03:07		[exec]
+2018-09-04 07:03:07		  exec
+2018-09-04 07:03:07		[xfer]
+2018-09-04 07:03:07		  me  xfer
+2018-09-04 07:03:07		[relay]
+2018-09-04 07:03:07		  relay
+2018-09-04 07:03:07		[alias]
+2018-09-04 07:03:07		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-04 07:03:07		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-04 07:03:07		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-04 07:03:07		[fifo]
+2018-09-04 07:03:07		  fifo
+2018-09-04 07:03:07		[perl]
+2018-09-04 07:03:07		  perl
+2018-09-04 07:03:07		[charset]
+2018-09-04 07:03:07		  charset
+2018-09-04 07:03:07		[script]
+2018-09-04 07:03:07		  script
+2018-09-04 07:03:07		[buflist]
+2018-09-04 07:03:07		  buflist
+2018-09-04 07:03:07		[lua]
+2018-09-04 07:03:07		  lua
+2018-09-04 07:03:17		[exec]  /exec  -list
+2018-09-04 07:03:17		               [-sh|-nosh] [-bg|-nobg] [-stdin|-nostdin] [-buffer <name>] [-l|-o|-n|-nf] [-cl|-nocl] [-sw|-nosw] [-ln|-noln] [-flush|-noflush] [-color ansi|auto|irc|weechat|strip] [-rc|-norc] [-timeout <timeout>] [-name <name>] [-pipe <command>] [-hsignal <name>] <command>
+2018-09-04 07:03:17		               -in <id> <text>
+2018-09-04 07:03:17		               -inclose <id> [<text>]
+2018-09-04 07:03:17		               -signal <id> <signal>
+2018-09-04 07:03:17		               -kill <id>
+2018-09-04 07:03:17		               -killall
+2018-09-04 07:03:17		               -set <id> <property> <value>
+2018-09-04 07:03:17		               -del <id>|-all [<id>...]
+2018-09-04 07:03:17		execute external commands
+2018-09-04 07:03:17		   -list: list commands
+2018-09-04 07:03:17		     -sh: use the shell to execute the command, many commands can be piped (WARNING: use this option ONLY if all arguments are safe, see option -nosh)
+2018-09-04 07:03:17		   -nosh: do not use the shell to execute the command (required if the command has some unsafe data, for example the content of a message from another user) (default)
+2018-09-04 07:03:17		     -bg: run process in background: do not display process output neither return code (not compatible with options -o/-oc/-n/-nf/-pipe/-hsignal)
+2018-09-04 07:03:17		   -nobg: catch process output and display return code (default)
+2018-09-04 07:03:17		  -stdin: create a pipe for sending data to the process (with /exec -in/-inclose)
+2018-09-04 07:03:17		-nostdin: do not create a pipe for stdin (default)
+2018-09-04 07:03:17		 -buffer: display/send output of command on this buffer (if the buffer is not found, a new buffer with name "exec.exec.xxx" is created)
+2018-09-04 07:03:17		      -l: display locally output of command on buffer (default)
+2018-09-04 07:03:17		      -o: send output of command to the buffer without executing commands (not compatible with options -bg/-pipe/-hsignal)
+2018-09-04 07:03:17		     -oc: send output of command to the buffer and execute commands (lines starting with "/" or another custom command char) (not compatible with options -bg/-pipe/-hsignal)
+2018-09-04 07:03:17		      -n: display output of command in a new buffer (not compatible with options -bg/-pipe/-hsignal)
+2018-09-04 07:03:17		     -nf: display output of command in a new buffer with free content (no word-wrap, no limit on number of lines) (not compatible with options -bg/-pipe/-hsignal)
+2018-09-04 07:03:17		     -cl: clear the new buffer before displaying output
+2018-09-04 07:03:17		   -nocl: append to the new buffer without clear (default)
+2018-09-04 07:03:17		     -sw: switch to the output buffer (default)
+2018-09-04 07:03:17		   -nosw: don't switch to the output buffer
+2018-09-04 07:03:17		     -ln: display line numbers (default in new buffer only)
+2018-09-04 07:03:17		   -noln: don't display line numbers
+2018-09-04 07:03:17		  -flush: display output of command in real time (default)
+2018-09-04 07:03:17		-noflush: display output of command after its end
+2018-09-04 07:03:17		  -color: action on ANSI colors in output:
+2018-09-04 07:03:17		             ansi: keep ANSI codes as-is
+2018-09-04 07:03:17		             auto: convert ANSI colors to WeeChat/IRC (default)
+2018-09-04 07:03:17		              irc: convert ANSI colors to IRC colors
+2018-09-04 07:03:17		          weechat: convert ANSI colors to WeeChat colors
+2018-09-04 07:03:17		            strip: remove ANSI colors
+2018-09-04 07:03:17		     -rc: display return code (default)
+2018-09-04 07:03:17		   -norc: don't display return code
+2018-09-04 07:03:17		-timeout: set a timeout for the command (in seconds)
+2018-09-04 07:03:17		   -name: set a name for the command (to name it later with /exec)
+2018-09-04 07:03:17		   -pipe: send the output to a WeeChat/plugin command (line by line); if there are spaces in command/arguments, enclose them with double quotes; variable $line is replaced by the line (by default the line is added after the command, separated by a space) (not compatible with options -bg/-o/-oc/-n/-nf)
+2018-09-04 07:03:17		-hsignal: send the output as a hsignal (to be used for example in a trigger) (not compatible with options -bg/-o/-oc/-n/-nf)
+2018-09-04 07:03:17		 command: the command to execute; if beginning with "url:", the shell is disabled and the content of URL is downloaded and sent as output
+2018-09-04 07:03:17		      id: command identifier: either its number or name (if set with "-name xxx")
+2018-09-04 07:03:17		     -in: send text on standard input of process
+2018-09-04 07:03:17		-inclose: same as -in, but stdin is closed after (and text is optional: without text, the stdin is just closed)
+2018-09-04 07:03:17		 -signal: send a signal to the process; the signal can be an integer or one of these names: hup, int, quit, kill, term, usr1, usr2
+2018-09-04 07:03:17		   -kill: alias of "-signal <id> kill"
+2018-09-04 07:03:17		-killall: kill all running processes
+2018-09-04 07:03:17		    -set: set a hook property (see function hook_set in plugin API reference)
+2018-09-04 07:03:17		property: hook property
+2018-09-04 07:03:17		   value: new value for hook property
+2018-09-04 07:03:17		    -del: delete a terminated command
+2018-09-04 07:03:17		    -all: delete all terminated commands
+2018-09-04 07:03:17		Default options can be set in the option exec.command.default_options.
+2018-09-04 07:03:17		Examples:
+2018-09-04 07:03:17		  /exec -n ls -l /tmp
+2018-09-04 07:03:17		  /exec -sh -n ps xu | grep weechat
+2018-09-04 07:03:17		  /exec -n -norc url:http://pastebin.com/raw.php?i=xxxxxxxx
+2018-09-04 07:03:17		  /exec -nf -noln links -dump https://weechat.org/files/doc/devel/weechat_user.en.html
+2018-09-04 07:03:17		  /exec -o uptime
+2018-09-04 07:03:17		  /exec -pipe "/print Machine uptime:" uptime
+2018-09-04 07:03:17		  /exec -n tail -f /var/log/messages
+2018-09-04 07:03:17		  /exec -kill 0
+2018-09-04 07:03:22	=!=	Error: unknown command "/helps" (type /help for help)
+2018-09-04 07:03:26	=!=	No help available, "commands" is not a command or an option
+2018-09-04 07:03:29		[core]
+2018-09-04 07:03:29		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-04 07:03:29		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-04 07:03:29		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-04 07:03:29		[logger]
+2018-09-04 07:03:29		  logger
+2018-09-04 07:03:29		[fset]
+2018-09-04 07:03:29		  fset
+2018-09-04 07:03:29		[trigger]
+2018-09-04 07:03:29		  trigger
+2018-09-04 07:03:29		[python]
+2018-09-04 07:03:29		  python
+2018-09-04 07:03:29		[irc]
+2018-09-04 07:03:29		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-04 07:03:29		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-04 07:03:29		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-04 07:03:29		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-04 07:03:29		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-04 07:03:29		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-04 07:03:29		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-04 07:03:29		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-04 07:03:29		[exec]
+2018-09-04 07:03:29		  exec
+2018-09-04 07:03:29		[xfer]
+2018-09-04 07:03:29		  me  xfer
+2018-09-04 07:03:29		[relay]
+2018-09-04 07:03:29		  relay
+2018-09-04 07:03:29		[alias]
+2018-09-04 07:03:29		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-04 07:03:29		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-04 07:03:29		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-04 07:03:29		[fifo]
+2018-09-04 07:03:29		  fifo
+2018-09-04 07:03:29		[perl]
+2018-09-04 07:03:29		  perl
+2018-09-04 07:03:29		[charset]
+2018-09-04 07:03:29		  charset
+2018-09-04 07:03:29		[script]
+2018-09-04 07:03:29		  script
+2018-09-04 07:03:29		[buflist]
+2018-09-04 07:03:29		  buflist
+2018-09-04 07:03:29		[lua]
+2018-09-04 07:03:29		  lua
+2018-09-04 07:03:42		[alias]  /C  
+2018-09-04 07:03:42		buffer clear
+2018-09-04 07:03:47		[alias]  /CHAT  
+2018-09-04 07:03:47		dcc chat
+2018-09-04 07:03:51		[alias]  /CHAT  
+2018-09-04 07:03:51		dcc chat
+2018-09-04 07:03:52	=!=	irc: command "dcc" must be executed on irc buffer (server or channel)
+2018-09-04 07:04:00		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-04 07:04:00		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-04 07:04:00		connect to IRC server(s)
+2018-09-04 07:04:00		    server: server name, which can be:
+2018-09-04 07:04:00		            - internal server name (added by /server add, recommended usage)
+2018-09-04 07:04:00		            - hostname/port or IP/port, port is 6667 by default
+2018-09-04 07:04:00		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-04 07:04:00		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-04 07:04:00		    option: set option for server (for boolean option, value can be omitted)
+2018-09-04 07:04:00		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-04 07:04:00		      -all: connect to all servers defined in configuration
+2018-09-04 07:04:00		     -auto: connect to servers with autoconnect enabled
+2018-09-04 07:04:00		     -open: connect to all opened servers that are not currently connected
+2018-09-04 07:04:00		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-04 07:04:00		   -switch: switch to next server address
+2018-09-04 07:04:00		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-04 07:04:00		Examples:
+2018-09-04 07:04:00		  /connect freenode
+2018-09-04 07:04:00		  /connect irc.oftc.net/6667
+2018-09-04 07:04:00		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-04 07:04:00		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-04 07:04:00		  /connect my.server.org/6697 -ssl -password=test
+2018-09-04 07:04:00		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-04 07:04:00		  /connect -switch
+2018-09-04 07:06:26		fifo: pipe closed
+2018-09-05 05:58:15		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-05 05:58:43		fifo: pipe closed
+2018-09-05 05:58:45		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-05 06:01:16		fifo: pipe closed
+2018-09-10 08:14:31		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-10 08:14:45		[core]
+2018-09-10 08:14:45		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-10 08:14:45		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-10 08:14:45		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-10 08:14:45		[logger]
+2018-09-10 08:14:45		  logger
+2018-09-10 08:14:45		[fset]
+2018-09-10 08:14:45		  fset
+2018-09-10 08:14:45		[trigger]
+2018-09-10 08:14:45		  trigger
+2018-09-10 08:14:45		[python]
+2018-09-10 08:14:45		  python
+2018-09-10 08:14:45		[irc]
+2018-09-10 08:14:45		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-10 08:14:45		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-10 08:14:45		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-10 08:14:45		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-10 08:14:45		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-10 08:14:45		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-10 08:14:45		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-10 08:14:45		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-10 08:14:45		[exec]
+2018-09-10 08:14:45		  exec
+2018-09-10 08:14:45		[xfer]
+2018-09-10 08:14:45		  me  xfer
+2018-09-10 08:14:45		[relay]
+2018-09-10 08:14:45		  relay
+2018-09-10 08:14:45		[alias]
+2018-09-10 08:14:45		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-10 08:14:45		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-10 08:14:45		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-10 08:14:45		[fifo]
+2018-09-10 08:14:45		  fifo
+2018-09-10 08:14:45		[perl]
+2018-09-10 08:14:45		  perl
+2018-09-10 08:14:45		[charset]
+2018-09-10 08:14:45		  charset
+2018-09-10 08:14:45		[script]
+2018-09-10 08:14:45		  script
+2018-09-10 08:14:45		[buflist]
+2018-09-10 08:14:45		  buflist
+2018-09-10 08:14:45		[lua]
+2018-09-10 08:14:45		  lua
+2018-09-10 08:14:48		[fifo]  /fifo  enable|disable|toggle
+2018-09-10 08:14:48		fifo plugin configuration
+2018-09-10 08:14:48		 enable: enable FIFO pipe
+2018-09-10 08:14:48		disable: disable FIFO pipe
+2018-09-10 08:14:48		 toggle: toggle FIFO pipe
+2018-09-10 08:14:48		FIFO pipe is used as remote control of WeeChat: you can send commands or text to the FIFO pipe from your shell.
+2018-09-10 08:14:48		By default the FIFO pipe is in ~/.weechat/weechat_fifo
+2018-09-10 08:14:48		The expected format is one of:
+2018-09-10 08:14:48		  plugin.buffer *text or command here
+2018-09-10 08:14:48		  *text or command here
+2018-09-10 08:14:48		For example to change your freenode nick:
+2018-09-10 08:14:48		  echo 'irc.server.freenode */nick newnick' >~/.weechat/weechat_fifo
+2018-09-10 08:14:48		Please read the user's guide for more info and examples.
+2018-09-10 08:14:48		Examples:
+2018-09-10 08:14:48		  /fifo toggle
+2018-09-10 08:14:54		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-10 08:14:54		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-10 08:14:54		connect to IRC server(s)
+2018-09-10 08:14:54		    server: server name, which can be:
+2018-09-10 08:14:54		            - internal server name (added by /server add, recommended usage)
+2018-09-10 08:14:54		            - hostname/port or IP/port, port is 6667 by default
+2018-09-10 08:14:54		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-10 08:14:54		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-10 08:14:54		    option: set option for server (for boolean option, value can be omitted)
+2018-09-10 08:14:54		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-10 08:14:54		      -all: connect to all servers defined in configuration
+2018-09-10 08:14:54		     -auto: connect to servers with autoconnect enabled
+2018-09-10 08:14:54		     -open: connect to all opened servers that are not currently connected
+2018-09-10 08:14:54		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-10 08:14:54		   -switch: switch to next server address
+2018-09-10 08:14:54		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-10 08:14:54		Examples:
+2018-09-10 08:14:54		  /connect freenode
+2018-09-10 08:14:54		  /connect irc.oftc.net/6667
+2018-09-10 08:14:54		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-10 08:14:54		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-10 08:14:54		  /connect my.server.org/6697 -ssl -password=test
+2018-09-10 08:14:54		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-10 08:14:54		  /connect -switch
+2018-09-10 08:14:58	=!=	Error: unknown command "/man" (type /help for help)
+2018-09-10 08:15:01	=!=	You can not write text in this buffer
+2018-09-10 08:15:05	=!=	You can not write text in this buffer
+2018-09-10 08:15:07		fifo: pipe closed
+2018-09-10 08:15:08		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-10 08:19:42		fifo: pipe closed
+2018-09-10 08:19:43		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-10 08:20:26		script: downloading list of scripts...
+2018-09-10 08:20:27		script: 346 scripts for WeeChat 2.2
+2018-09-10 08:20:28		perl: loading script "/home/caleb/.weechat/perl/iset.pl"
+2018-09-10 08:20:28		perl: registered script "iset", version 4.3 (Interactive Set for configuration options)
+2018-09-10 08:20:28		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2018-09-10 08:20:28		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2018-09-10 08:20:28		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2018-09-10 08:20:28		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2018-09-10 08:21:24	=!=	Error: unknown command "/back" (type /help for help)
+2018-09-10 08:21:48		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-10 08:21:48		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-10 08:21:48		connect to IRC server(s)
+2018-09-10 08:21:48		    server: server name, which can be:
+2018-09-10 08:21:48		            - internal server name (added by /server add, recommended usage)
+2018-09-10 08:21:48		            - hostname/port or IP/port, port is 6667 by default
+2018-09-10 08:21:48		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-10 08:21:48		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-10 08:21:48		    option: set option for server (for boolean option, value can be omitted)
+2018-09-10 08:21:48		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-10 08:21:48		      -all: connect to all servers defined in configuration
+2018-09-10 08:21:48		     -auto: connect to servers with autoconnect enabled
+2018-09-10 08:21:48		     -open: connect to all opened servers that are not currently connected
+2018-09-10 08:21:48		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-10 08:21:48		   -switch: switch to next server address
+2018-09-10 08:21:48		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-10 08:21:48		Examples:
+2018-09-10 08:21:48		  /connect freenode
+2018-09-10 08:21:48		  /connect irc.oftc.net/6667
+2018-09-10 08:21:48		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-10 08:21:48		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-10 08:21:48		  /connect my.server.org/6697 -ssl -password=test
+2018-09-10 08:21:48		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-10 08:21:48		  /connect -switch
+2018-09-10 08:21:51		perl: scripts unloaded
+2018-09-10 08:21:51		fifo: pipe closed
+2018-09-10 08:21:54		perl scripts loaded: iset
+2018-09-10 08:21:54		script: 346 scripts for WeeChat 2.2
+2018-09-10 08:21:54		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-10 08:22:01		script: script "guile.so" not found
+2018-09-10 08:24:18		perl: scripts unloaded
+2018-09-10 08:24:18		fifo: pipe closed
+2018-09-10 08:24:19		perl scripts loaded: iset
+2018-09-10 08:24:20		script: 346 scripts for WeeChat 2.2
+2018-09-10 08:24:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-10 08:24:35		perl: scripts unloaded
+2018-09-10 08:24:35		fifo: pipe closed
+2018-09-10 08:24:36		perl scripts loaded: iset
+2018-09-10 08:24:36		script: 346 scripts for WeeChat 2.2
+2018-09-10 08:24:36		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-10 08:24:55		[core]
+2018-09-10 08:24:55		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-10 08:24:55		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-10 08:24:55		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-10 08:24:55		[logger]
+2018-09-10 08:24:55		  logger
+2018-09-10 08:24:55		[fset]
+2018-09-10 08:24:55		  fset
+2018-09-10 08:24:55		[trigger]
+2018-09-10 08:24:55		  trigger
+2018-09-10 08:24:55		[python]
+2018-09-10 08:24:55		  python
+2018-09-10 08:24:55		[ruby]
+2018-09-10 08:24:55		  ruby
+2018-09-10 08:24:55		[irc]
+2018-09-10 08:24:55		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-10 08:24:55		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-10 08:24:55		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-10 08:24:55		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-10 08:24:55		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-10 08:24:55		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-10 08:24:55		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-10 08:24:55		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-10 08:24:55		[exec]
+2018-09-10 08:24:55		  exec
+2018-09-10 08:24:55		[aspell]
+2018-09-10 08:24:55		  aspell
+2018-09-10 08:24:55		[xfer]
+2018-09-10 08:24:55		  me  xfer
+2018-09-10 08:24:55		[relay]
+2018-09-10 08:24:55		  relay
+2018-09-10 08:24:55		[alias]
+2018-09-10 08:24:55		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-10 08:24:55		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-10 08:24:55		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-10 08:24:55		[fifo]
+2018-09-10 08:24:55		  fifo
+2018-09-10 08:24:55		[perl]
+2018-09-10 08:24:55		  iset  perl
+2018-09-10 08:24:55		[charset]
+2018-09-10 08:24:55		  charset
+2018-09-10 08:24:55		[script]
+2018-09-10 08:24:55		  script
+2018-09-10 08:24:55		[buflist]
+2018-09-10 08:24:55		  buflist
+2018-09-10 08:24:55		[tcl]
+2018-09-10 08:24:55		  tcl
+2018-09-10 08:24:55		[lua]
+2018-09-10 08:24:55		  lua
+2018-09-10 08:25:10		[alias]  /CL  
+2018-09-10 08:25:10		buffer clear
+2018-09-10 08:25:17		[alias]  /C  
+2018-09-10 08:25:17		buffer clear
+2018-09-10 09:00:39	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-09-10 09:00:39	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-10 09:01:03		[irc]  /server  list|listfull [<name>]
+2018-09-10 09:01:03		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-09-10 09:01:03		                copy|rename <name> <new_name>
+2018-09-10 09:01:03		                reorder <name> [<name>...]
+2018-09-10 09:01:03		                open <name>|-all [<name>...]
+2018-09-10 09:01:03		                del|keep <name>
+2018-09-10 09:01:03		                deloutq|jump|raw
+2018-09-10 09:01:03		list, add or remove IRC servers
+2018-09-10 09:01:03		    list: list servers (without argument, this list is displayed)
+2018-09-10 09:01:03		listfull: list servers with detailed info for each server
+2018-09-10 09:01:03		     add: add a new server
+2018-09-10 09:01:03		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2018-09-10 09:01:03		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-09-10 09:01:03		   -temp: add a temporary server (not saved)
+2018-09-10 09:01:03		  option: set option for server (for boolean option, value can be omitted)
+2018-09-10 09:01:03		nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-10 09:01:03		    copy: duplicate a server
+2018-09-10 09:01:03		  rename: rename a server
+2018-09-10 09:01:03		 reorder: reorder list of servers
+2018-09-10 09:01:03		    open: open the server buffer without connecting
+2018-09-10 09:01:03		    keep: keep server in config file (for temporary servers only)
+2018-09-10 09:01:03		     del: delete a server
+2018-09-10 09:01:03		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-09-10 09:01:03		    jump: jump to server buffer
+2018-09-10 09:01:03		     raw: open buffer with raw IRC data
+2018-09-10 09:01:03		Examples:
+2018-09-10 09:01:03		  /server listfull
+2018-09-10 09:01:03		  /server add freenode chat.freenode.net
+2018-09-10 09:01:03		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-09-10 09:01:03		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-09-10 09:01:03		  /server copy freenode freenode-test
+2018-09-10 09:01:03		  /server rename freenode-test freenode2
+2018-09-10 09:01:03		  /server reorder freenode2 freenode
+2018-09-10 09:01:03		  /server del freenode
+2018-09-10 09:01:03		  /server deloutq
+2018-09-10 09:01:33		irc: server freenode added
+2018-09-10 09:02:04		[irc]  /nick  [-all] <nick>
+2018-09-10 09:02:04		change current nick
+2018-09-10 09:02:04		-all: set new nick for all connected servers
+2018-09-10 09:02:04		nick: new nick
+2018-09-10 09:39:26		perl: scripts unloaded
+2018-09-10 09:39:26		fifo: pipe closed
+2018-09-10 09:39:28		perl scripts loaded: iset
+2018-09-10 09:39:28		script: 346 scripts for WeeChat 2.2
+2018-09-10 09:39:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-10 09:39:49	=!=	Too few arguments for command "/nick" (help on command: /help nick)
+2018-09-10 09:39:54		[irc]  /nick  [-all] <nick>
+2018-09-10 09:39:54		change current nick
+2018-09-10 09:39:54		-all: set new nick for all connected servers
+2018-09-10 09:39:54		nick: new nick
+2018-09-10 09:39:57		perl: scripts unloaded
+2018-09-10 09:39:57		fifo: pipe closed
+2018-09-10 09:40:01		perl scripts loaded: iset
+2018-09-10 09:40:01		script: 346 scripts for WeeChat 2.2
+2018-09-10 09:40:01		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-10 09:40:38	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2018-09-10 09:40:49		[core]
+2018-09-10 09:40:49		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-09-10 09:40:49		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-09-10 09:40:49		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-09-10 09:40:49		[logger]
+2018-09-10 09:40:49		  logger
+2018-09-10 09:40:49		[fset]
+2018-09-10 09:40:49		  fset
+2018-09-10 09:40:49		[trigger]
+2018-09-10 09:40:49		  trigger
+2018-09-10 09:40:49		[python]
+2018-09-10 09:40:49		  python
+2018-09-10 09:40:49		[ruby]
+2018-09-10 09:40:49		  ruby
+2018-09-10 09:40:49		[irc]
+2018-09-10 09:40:49		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2018-09-10 09:40:49		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2018-09-10 09:40:49		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2018-09-10 09:40:49		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2018-09-10 09:40:49		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2018-09-10 09:40:49		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2018-09-10 09:40:49		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2018-09-10 09:40:49		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2018-09-10 09:40:49		[exec]
+2018-09-10 09:40:49		  exec
+2018-09-10 09:40:49		[aspell]
+2018-09-10 09:40:49		  aspell
+2018-09-10 09:40:49		[xfer]
+2018-09-10 09:40:49		  me  xfer
+2018-09-10 09:40:49		[relay]
+2018-09-10 09:40:49		  relay
+2018-09-10 09:40:49		[alias]
+2018-09-10 09:40:49		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-09-10 09:40:49		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-09-10 09:40:49		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-09-10 09:40:49		[fifo]
+2018-09-10 09:40:49		  fifo
+2018-09-10 09:40:49		[perl]
+2018-09-10 09:40:49		  iset  perl
+2018-09-10 09:40:49		[charset]
+2018-09-10 09:40:49		  charset
+2018-09-10 09:40:49		[script]
+2018-09-10 09:40:49		  script
+2018-09-10 09:40:49		[buflist]
+2018-09-10 09:40:49		  buflist
+2018-09-10 09:40:49		[tcl]
+2018-09-10 09:40:49		  tcl
+2018-09-10 09:40:49		[lua]
+2018-09-10 09:40:49		  lua
+2018-09-10 09:42:02		perl: scripts unloaded
+2018-09-10 09:42:02		fifo: pipe closed
+2018-09-12 18:53:23		perl scripts loaded: iset
+2018-09-12 18:53:23		script: downloading list of scripts...
+2018-09-12 18:53:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-12 18:53:24		script: 346 scripts for WeeChat 2.2
+2018-09-12 18:54:37		perl: scripts unloaded
+2018-09-12 18:54:37		fifo: pipe closed
+2018-09-18 10:48:47		perl scripts loaded: iset
+2018-09-18 10:48:47		script: downloading list of scripts...
+2018-09-18 10:48:47		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-18 10:48:48		script: 346 scripts for WeeChat 2.2
+2018-09-18 10:49:28		perl: scripts unloaded
+2018-09-18 10:49:28		fifo: pipe closed
+2018-09-18 10:49:31		perl scripts loaded: iset
+2018-09-18 10:49:31		script: 346 scripts for WeeChat 2.2
+2018-09-18 10:49:31		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-18 10:49:44		perl: scripts unloaded
+2018-09-18 10:49:44		fifo: pipe closed
+2018-09-18 10:49:47		perl scripts loaded: iset
+2018-09-18 10:49:47		script: 346 scripts for WeeChat 2.2
+2018-09-18 10:49:47		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-18 10:50:24		perl: scripts unloaded
+2018-09-18 10:50:24		fifo: pipe closed
+2018-09-18 10:54:38		perl scripts loaded: iset
+2018-09-18 10:54:38		script: 346 scripts for WeeChat 2.2
+2018-09-18 10:54:38		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-18 10:59:18		perl: scripts unloaded
+2018-09-18 10:59:18		fifo: pipe closed
+2018-09-19 15:11:27		perl scripts loaded: iset
+2018-09-19 15:11:27		script: downloading list of scripts...
+2018-09-19 15:11:27		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-19 15:11:28		script: 346 scripts for WeeChat 2.2
+2018-09-19 15:11:40		perl: scripts unloaded
+2018-09-19 15:11:40		fifo: pipe closed
+2018-09-26 12:32:33		perl scripts loaded: iset
+2018-09-26 12:32:33		script: downloading list of scripts...
+2018-09-26 12:32:33		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-26 12:32:36		script: 356 scripts for WeeChat 2.2
+2018-09-26 12:33:45		perl: scripts unloaded
+2018-09-26 12:33:45		fifo: pipe closed
