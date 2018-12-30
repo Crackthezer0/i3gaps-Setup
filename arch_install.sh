@@ -31,6 +31,12 @@ while getopts "v" o; do
     esac
 done
 
+post_install_config(){
+    chsh -s /usr/bin/zsh
+
+}
+
+
 
 source_building
 
