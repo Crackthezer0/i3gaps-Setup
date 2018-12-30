@@ -30,6 +30,7 @@ vm_tools(){
 	sudo systemctl enable vboxservice.service && \
 	sudo systemctl start vboxservice.service && \
 	VBoxClient-all
+}
 
 post_install_config(){
     #Change shell and stow dotfiles
@@ -41,7 +42,7 @@ post_install_config(){
 
 while getopts "v" o; do
     case $o in
-	v) vm_tools
+	v) vm_tools ;;
     esac
 done
 
@@ -50,4 +51,3 @@ source_building
 install_packages
 
 post_install_config
-
