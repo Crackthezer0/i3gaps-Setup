@@ -10,7 +10,7 @@ source_building(){
 install_packages(){
     #Install needed packages and do AUR stuff
     echo "Installing Packages"
-    programs=~/dotfiles/i3gaps-Setup/progs.csv
+    programs=progs.csv
     
     while IFS=, read -r type package description; do
 	if [[ $type == "A" ]]; then
@@ -38,6 +38,9 @@ post_install_config(){
     nwshell=which zsh
     chsh -s "$nwshell"
     stow ~/dotfiles/i3gaps-Setup
+
+    #Install Oh My ZSH
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 }
 
 while getopts "v" o; do
