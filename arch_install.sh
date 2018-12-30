@@ -43,6 +43,7 @@ post_install_config(){
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 }
 
+#Handle flags
 while getopts "v" o; do
     case $o in
 	v) vm_tools ;;
