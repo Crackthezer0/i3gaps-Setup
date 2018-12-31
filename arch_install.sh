@@ -5,12 +5,12 @@ source_building(){
     echo "Installing installation tools"
     sudo pacman --noconfirm --needed -S base-devel git stow && git clone https://aur.archlinux.org/yay.git
     cd yay && makepkg -si
+    cd ..
 }
 
 install_packages(){
     #Install needed packages and do AUR stuff
     echo "Installing Packages"
-    programs=progs.csv
     
     while IFS=, read -r type package description; do
 	if [[ $type == "A" ]]; then
@@ -20,7 +20,7 @@ install_packages(){
 	else
 	    sudo pacman --noconfirm --needed -S "$package"
 	fi
-    done < "$programs"
+    done < progs.csv
 }
 
 vm_tools(){
