@@ -29,7 +29,7 @@ col = #00f
 ;monitor = ${env:MONITOR}
 monitor = ${env:MONITOR:LVDS-1}
 width = 100%
-height = 24
+height = 22
 ;offset-x = 1%
 ;offset-y = 1%
 ;radius = 6.0
@@ -41,11 +41,11 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = {$xrdb:color1}
 
-border-size = 0
+border-size = 0 
 border-color = #00000000
 
 padding-left = 0
-padding-right = 0
+padding-right = 3 
 
 module-margin-left = 1
 module-margin-right = 2
@@ -155,7 +155,7 @@ label-mode-background = ${colors.primary}
 ; focused = Active workspace on focused monitor
 label-focused = %index%
 label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
+;label-focused-underline = ${module/bspwm.label-focused-underline}
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
 ; unfocused = Inactive workspace on any monitor
@@ -165,7 +165,7 @@ label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
+;label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
@@ -179,22 +179,22 @@ format-online = <label-song> <label-time>
 # <icon-prev> <toggle> <icon-next>
 #<toggle>
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-#icon-prev = <-
-#icon-stop = X
-#icon-play-prefix = #f00
-#icon-play = (Paused)
-#icon-pause = 
-#icon-next = ->
+#icon-prev = 
+#icon-stop = 
+#icon-play = 
+#icon-pause = 
+#icon-next = 
+icon-prev = <-
+icon-stop = X
+icon-play-prefix = #f00
+icon-play = (Paused)
+icon-pause = 
+icon-next = ->
 
-;bar-progress-width = 45
-;bar-progress-indicator = |
-;bar-progress-fill = -
-;bar-progress-empty = -
+bar-progress-width = 45
+bar-progress-indicator = |
+bar-progress-fill = -
+bar-progress-empty = -
 
 label-song =  %artist% - %title%
 label-song-maxlen = 70
@@ -266,7 +266,7 @@ type = internal/network
 interface = enp2s0
 interval = 3.0
 
-format-connected-underline = ${xrdb:color2}
+;format-connected-underline = ${xrdb:color2}
 ;format-connected-underline = ${xrdb:color10}
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
@@ -292,7 +292,7 @@ time = " at %I:%M%p"
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${xrdb:color12}
+;format-underline = ${xrdb:color12}
 ;format-underline = #0a6cf5
 
 label = %date% %time%
