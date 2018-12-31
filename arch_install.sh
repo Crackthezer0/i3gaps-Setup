@@ -32,11 +32,11 @@ vm_tools(){
 	VBoxClient-all
 }
 
+#Dotfiles must be installed in order for xorg to launch correctly
+#This is probably because the repo provides .xinitrc .Xresources
 post_install_config(){
-    #Change shell and stow dotfiles
+    #Stow dotfiles
     echo "Starting post configuration:"
-    nwshell=which zsh
-    chsh -s "$nwshell"
     stow ~/dotfiles/i3gaps-Setup
 
     #Install Oh My ZSH
