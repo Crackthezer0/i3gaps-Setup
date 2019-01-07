@@ -37,7 +37,7 @@ vm_tools(){
 post_install_config(){
     #Stow dotfiles
     echo "Starting post configuration:"
-    stow ~/dotfiles/i3gaps-Setup
+    stow dotfiles
 
     #Install Oh My ZSH
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
