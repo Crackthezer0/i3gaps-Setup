@@ -37,6 +37,8 @@ vm_tools(){
 post_install_config(){
     #Stow dotfiles
     echo "Starting post configuration:"
+    #Remove conflicting dot files
+    rm ~/.bash*
     stow dotfiles
 
     #Install Oh My ZSH
